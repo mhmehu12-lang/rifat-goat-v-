@@ -162,7 +162,7 @@ ${formatted}`
 
     try {
       // triggers only
-      const triggers = ["baby","bby","xan","bbz","mari","মারিয়া","bot"];
+      const triggers = ["baby","bby","xan","bbz","sanvi","tuki","bot"];
       if (triggers.includes(raw)) {
         await typing(api, threadID, 5000);
         const funny = [
